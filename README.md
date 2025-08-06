@@ -2,4 +2,3 @@
 
 Brett: Login System
 Summer: HTML/CSS
-Michael: Backend
