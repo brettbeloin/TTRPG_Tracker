@@ -3,15 +3,15 @@
 # ## Get latest from https://github.com/github/gitignore/blob/main/VisualStudio.gitignore
 #
 # # User-specific files
- *.rsuser
- *.suo
- *.user
- *.userosscache
- *.sln.docstates
- *.env
+*.rsuser
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.env
 #
 # # User-specific files (MonoDevelop/Xamarin Studio)
- *.userprefs
+*.userprefs
 #
 # # Mono auto generated files
 # mono_crash.*
@@ -175,8 +175,8 @@
 # coverage*.info
 #
 # # Visual Studio code coverage results
- *.coverage
- *.coveragexml
+*.coverage
+*.coveragexml
 #
 # # NCrunch
 # _NCrunch_*
@@ -406,7 +406,7 @@
 # FodyWeavers.xsd
 #
 # # VS Code files for those working on multiple tools
- .vscode/*
+.vscode/*
 # !.vscode/settings.json
 # !.vscode/tasks.json
 # !.vscode/launch.json
@@ -414,10 +414,10 @@
 # !.vscode/*.code-snippets
 #
 # # Local History for Visual Studio Code
- .history/
+.history/
 #
 # # Built Visual Studio Code Extensions
- *.vsix
+*.vsix
 #
 # # Windows Installer files from build outputs
 # *.cab
@@ -428,11 +428,11 @@
 #
 # # Logs
 # logs
- *.log
- npm-debug.log*
- yarn-debug.log*
- yarn-error.log*
- lerna-debug.log*
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
 #
 # # Diagnostic reports (https://nodejs.org/api/report.html)
 # report.[0-9]*.[0-9]*.[0-9]*.[0-9]*.json
@@ -466,37 +466,37 @@
 # build/Release
 #
 # # Dependency directories
- node_modules/
- jspm_packages/
+node_modules/
+jspm_packages/
 #
 # # Snowpack dependency directory (https://snowpack.dev/)
- web_modules/
+web_modules/
 #
 # # TypeScript cache
 # *.tsbuildinfo
 #
 # # Optional npm cache directory
- .npm
+.npm
 #
 # # Optional eslint cache
- .eslintcache
+.eslintcache
 #
 # # Optional stylelint cache
- .stylelintcache
+.stylelintcache
 #
 # # Optional REPL history
- .node_repl_history
+.node_repl_history
 #
 # # Output of 'npm pack'
- *.tgz
+*.tgz
 #
 # # Yarn Integrity file
- .yarn-integrity
+.yarn-integrity
 #
 # # dotenv environment variable files
- .env
- .env.*
- !.env.example
+.env
+.env.*
+!.env.example
 #
 # # parcel-bundler cache (https://parceljs.org/)
 # .cache
