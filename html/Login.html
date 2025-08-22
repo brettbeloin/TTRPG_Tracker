@@ -4,34 +4,40 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name = "viewport" content = "width=device-wdith, initial-scale=1.0" >
+    <meta name = "viewport" content = "width=device-width, initial-scale=1.0" >
     <meta name = "description" content = "Login Page for TTRPG Info Tracker">
-    <meta name = "keywords" content = "TTRP, Tracker, DND, PathFinder, Table-Top">
-    <meta name = "author" content = "Summer Parker, Jon Veith, Nathan Willett, Brett Beloin, Micheal Vanatta">
+    <meta name = "keywords" content = "TTRPG, Tracker, DND, PathFinder, Table-Top">
+    <meta name = "author" content = "Summer Parker, Jon Veith, Nathan Willett, Brett Beloin, Michael Vanatta">
 
     <link rel="icon" type="image/svg+xml" href="data:image/svg+xml ">
 
    
-    <link rel="stylesheet" href="BaseTemplate.css">
+    <link rel="stylesheet" href="../css/BaseTemplate.css">
+    <title> TTRPG Info Tracker, Login Page </title>
 </head>
 
-    <title> TTRPG Info Tracker </title>
 
     <body>
 
-    <header role = "banner">
-        <section class= "container">
-            <h1> TTRPG Info Tracker Login </h1> 
-            <p class = "tagline"> Built by Summer Parker, Jon Veith, Nathan Willet, Brett Beloin, and Micheal Vanatta </p>
-        </section>
+    <header>
+        <div class="header-inner">
+            <div class="site-title" id="non-home-title">
+            <h1>TTRPG Info Tracker Login</h1>
+            <!-- <p class="tagline">Built by Summer Parker, Jon Veith, Nathan Willett, Brett Beloin, and Michael Vanatta</p> -->
+            </div>
+
+            <!-- <div class="login-link">
+            <a href="login.html">Log In</a>
+            </div> -->
+        </div>
     </header>
 
 
-    <nav role="navigation" aria-label= "Main navigation"> 
+    <nav role="navigation" aria-label= "Main navigation" id="main-nav-bar"> 
         <section class = "container">
             <ul>
-                <li> <a href="AccountPage.html" aria-describedby="AccountPage">Account Page</a> </li>
-                <li> <a href="Campaigns.html" aria-describedby="Campaigns">Campaigns</a></li>
+                <li> <a href="account.html" aria-describedby="AccountPage">Account Page</a> </li>
+                <li> <a href="campaigns.html" aria-describedby="Campaigns">Campaigns</a></li>
             </ul>
         </section>
     </nav>
@@ -62,6 +68,6 @@
             <nav role="navigation" aria-label= "Go back navigation"> 
             <section class = "container">
             <ul>
-                <li> <a href="Home.html" aria-describedby="AccountPage">Go Back</a> </li>
+                <li> <a href="index.html" aria-describedby="AccountPage">Go Back</a> </li>
             </ul>
     </body>  

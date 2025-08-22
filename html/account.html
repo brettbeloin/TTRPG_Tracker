@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang = "en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta name = "viewport" content = "width=device-width, initial-scale=1.0" >
+    <meta name = "description" content = "Login Page for TTRPG Info Tracker">
+    <meta name = "keywords" content = "TTRPG, Tracker, DND, PathFinder, Table-Top">
+    <meta name = "author" content = "Summer Parker, Jon Veith, Nathan Willett, Brett Beloin, Michael Vanatta">
+
+
+        <link rel="stylesheet" href="../css/BaseTemplate.css">
+        <title>User Account Page</title>
+</head>
+
+<body>
+
+    <header>
+        <div class="header-inner">
+            <div class="site-title" id="non-home-title">
+            <h1>TTRPG Info Tracker Account Page</h1>
+            <!-- <p class="tagline">Built by Summer Parker, Jon Veith, Nathan Willett, Brett Beloin, and Michael Vanatta</p> -->
+            </div>
+
+        </div>
+    </header>
+
+        <nav role="navigation" aria-label= "Main navigation" id="main-nav-bar"> 
+        <section class = "container">
+            <ul>
+                <a href="index.html" aria-describedby="HomePage">Return To Home</a>
+            </ul>
+        </section>
+    </nav>
+
+    <section>
+        <h2 id="Campaign Table"> <a href="campaigns.html" aria-describedby="Campaigns">Campaigns</a></h2>
+        <table border="1" cellpadding="20" cellspacing="20">
+            <!--Note: Code to make this change dynamically dependant on how many campaigns someone is a part of will be needed later.-->
+            <tr>
+                <th></th>
+                <th></th>
+                <th></th>
+            </tr>
+            <tr>
+                <th></th>
+                <th></th>
+                <th></th>
+            </tr>
+            <tr>
+                <th></th>
+                <th></th>
+                <th></th>
+            </tr>
+        </table>
+    </section>
+    <section>
+            <p>Upload Character Here:</p>
+            <div id="DropZone" ondragover="allowDrop(event)" ondrop="drop(event)">[FEATURE MISSING, RESEARCH REQUIRED]</div>
+
+            <button id="SubmitFile">Submit File!</button>
+    </section>
+
+    <p id="Characters">Character Info Will Go Here</p>
+</body>
+</html>
